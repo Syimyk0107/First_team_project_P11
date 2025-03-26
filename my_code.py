@@ -1,14 +1,14 @@
 import random  
 
 def start_game():
-    player_health = 100  # Здоровье игрока
-    player_potions = 2  # Количество лечебных зелий
-    player_attack_min = 10  # Минимальный урон игрока
-    player_attack_max = 30  # Максимальный урон игрока
+    player_health = 100       # Здоровье игрока
+    player_potions = 2        # Количество лечебных зелий
+    player_attack_min = 10    # Минимальный урон игрока
+    player_attack_max = 30    # Максимальный урон игрока
     player_weapon = "Кинжал"  # Начальное оружие
-    player_weapon_bonus = 0  # Дополнительный бонус к урону от оружия
-    player_xp = 0  # Опыт игрока
-    player_level = 1  # Уровень игрока
+    player_weapon_bonus = 0   # Дополнительный бонус к урону от оружия
+    player_xp = 0             # Опыт игрока
+    player_level = 1          # Уровень игрока
     # Определяем врагов в игре
     enemies = {
         "тролль": {"health": 50, "attack_min": 5, "attack_max": 20, "xp": 20},
